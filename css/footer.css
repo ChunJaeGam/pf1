@@ -1,0 +1,107 @@
+footer {
+  background-color: #000;
+  color: #fff;
+}
+footer a{
+  color: #eee;
+}
+footer .inner {
+  height: 380px;
+}
+footer .inner > div {
+    
+}
+footer .inner .left {
+    
+}
+footer .inner .left h1 {
+    
+}
+footer .inner .left h1 a {
+  font-size: 0;
+  background-image: url(../img/f_logo.png);
+  width: 113px;
+  height: 30px;
+  display: block;
+}
+footer .inner .left address {
+  color: #cbcbcb;
+  transform: translateY(-90px);
+  margin-top: 50px;
+}
+footer .inner .left p.copyrighy {
+    
+  color: #858585;
+}
+footer .inner .right {
+  align-items: end;
+}
+footer .inner .right ul.personal {
+  gap: 20px;
+}
+footer .inner .right ul.personal li {
+    
+}
+footer .inner .right ul.personal li a {  
+  color: #858585;
+}
+footer .inner .right .bottom {    
+  gap: 50px;
+}
+footer .inner .right .bottom ul.sns {
+  gap: 20px;
+  align-items: center;
+}
+footer .inner .right .bottom ul.sns li {
+  background-repeat: no-repeat;
+  /*! background-origin: content-box; */
+  /*! background-position: center; */
+}
+footer .inner .right .bottom ul.sns li:nth-of-type(1){
+/*   background-image: url(../img/footer_sns01.png); */
+  background-image: url(../img/logo-instagram.svg);
+}
+footer .inner .right .bottom ul.sns li:nth-of-type(1):hover{
+  background-image: url(../img/logo-instagram-h.svg);
+}
+footer .inner .right .bottom ul.sns li:nth-of-type(2){
+/*   background-image: url(../img/footer_sns02.png); */
+  background-image: url(../img/logo-youtube.svg);
+}
+footer .inner .right .bottom ul.sns li:nth-of-type(2):hover{
+  background-image: url(../img/logo-youtube-h.svg);
+}
+footer .inner .right .bottom ul.sns li:nth-of-type(3){
+/*   background-image: url(../img/footer_sns03.png); */
+  background-image: url(../img/logo-twitter.svg);
+}
+footer .inner .right .bottom ul.sns li:nth-of-type(3):hover{
+  background-image: url(../img/logo-twitter-h.svg);
+}
+footer .inner .right .bottom ul.sns li a {    
+  font-size: 0;
+  display: block;
+  width: 20px;
+  height: 20px;
+}
+footer .inner .right .bottom ul.banner {
+ 
+}
+footer .inner .right .bottom ul.banner a{ 
+  color: #858585;
+}
+footer .inner .right .bottom ul.banner a::before{ 
+  content: "";
+  background-image: url(../img/flag_store.png);
+  width: 64px;
+  height: 50px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 13px;
+}
+footer .inner .right .bottom ul.banner a strong{ 
+  color: white;
+}
+footer .inner .right .bottom > a {
+    
+}

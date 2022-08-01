@@ -117,10 +117,11 @@
     background-size: 100px;
   }
   #community .inner div{
-    width: auto;
+    width: 100%;
     gap: initial;
     box-shadow: 0 0 0 transparent;
     row-gap: 50px;
+    padding: 0;
   }
   #community .inner div article:not(.faq){
     width: calc(100%);

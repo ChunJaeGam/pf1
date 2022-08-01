@@ -311,7 +311,7 @@ color: white; */
   content: "↗";
   width: 26px;
   height: 26px;
-  background-color: red;
+  background-color: #e33a2b;
   border-radius: 50%;
   display:inline-block;
   text-align: center;
@@ -346,7 +346,7 @@ color: white; */
 }
 #community .inner div article > a.viewMore:hover{
   color: white;
-  background-color: red;
+  background-color: #e33a2b;
 }
 /* 사이드메뉴 */
 aside#quick{

@@ -1,0 +1,170 @@
+@media  screen and (max-width:1200px){ /*max-width 이하 미디어쿼리 */
+  /* 상단 영역 */
+  header div.inner{
+    flex-wrap: wrap;
+  }
+  header .inner h1{
+    order: 1;
+  }
+  header .inner ul.gnb{
+    order: 3;
+    width: 100%;
+    justify-content: center;
+  }
+  header .inner ul.enb{
+    order: 2;
+  }
+  /* 타이틀 */
+  #title{
+    min-height: 36.45833333333333vw; /* 700/19.2 */
+    height: 100vw;
+  }
+  #title::before{
+    width: 78.54166666666667vw; /* 1508/19.2 */
+    height: 20.20833333333333vw; /* 388/19.2 */
+    margin-top: 3.125vw; /* 60/19.2 */
+  }
+  #title form.search{
+    width: 36.45833333333333vw; /* 700/19.2 */
+    min-width: 600px;
+  }
+  #title ul.hash{
+    column-gap: 20px;
+  }
+  /* 빙그레맛 */
+  #taste .inner ul.list li{
+    width: calc((100% / 3) - (50px / 3));
+  }
+  /* 브랜드샵 */
+  #shop::before{
+    display: none;
+  }
+  #shop .inner ul.list{
+    flex-wrap: wrap;
+  }
+  #shop .inner ul.list li{
+    width: calc(100% / 3 - 20px / 3);
+  }  
+  /* 커뮤니티 */
+  #community .inner > article{
+    width: 90%
+  }
+   #community .inner div article:not(.faq){
+    width: calc(100%);
+  }
+  #community .inner div article ul li{
+    width: calc(100%);
+    line-height: 1.5;
+    padding: 10px 0;
+  }
+  #community .inner div article ul li a{
+    font-size: 18px;
+  }
+  #community .inner div article.telephone a{
+    font-size: 30px;
+  }
+}
+
+@media  screen and (max-width:768px){ /* max-width 이하 미디어쿼리 */
+  /* 헤더 */
+  header .inner ul.gnb{
+    display: none;
+  }
+  header .inner ul.tnb{
+    display: none;
+  }
+  /* 타이틀 */
+  #title{
+    min-height: 36.45833333333333vw; /* 700/19.2 */
+    height: 100vw;
+  }
+  #title::before{
+    width: 78.54166666666667vw; /* 1508/19.2 */
+    height: 20.20833333333333vw; /* 388/19.2 */
+    margin-top: 3.125vw; /* 60/19.2 */
+  }
+  #title form.search{
+    width: 36.45833333333333vw; /* 700/19.2 */
+    min-width: 90%;
+  }
+  #title ul.hash{
+    column-gap: 20px;
+  }
+  /* 빙그레맛 */
+  #taste .inner ul.list li{
+
+    width: calc((100% / 2) - (50px / 2));
+  }
+  /* 브랜드샵 */
+  #shop::before{
+    display: none;
+  }
+  #shop .inner ul.list{
+    flex-wrap: wrap;
+  }
+  #shop .inner ul.list li{
+
+    width: calc(100% / 2 - 10px / 2);
+  }  
+  /* 커뮤니티 */
+  #community .inner > article{
+    width: calc(100% / 1);
+  }
+  #community .inner > article.cyber {
+    background-size: 100px;
+  }
+  #community .inner > article.sinmungo{
+    background-size: 100px;
+  }
+  #community .inner div{
+    width: auto;
+    gap: initial;
+    box-shadow: 0 0 0 transparent;
+    row-gap: 50px;
+  }
+  #community .inner div article:not(.faq){
+    width: calc(100%);
+  }
+  #community .inner div article ul li{
+    width: calc(100%);
+    line-height: 1.5;
+    padding: 10px 0;
+  }
+/*   #community .inner div article ul li:nth-child(2){
+    line-height: 2;
+  } */
+  #community .inner div article ul li a{
+    font-size: 13px;
+  }
+  #community .inner div article.email{
+     background-size: 100px;
+  }
+  #community .inner div article.telephone{
+     background-size: 100px;
+  }
+  #community .inner div article.telephone a{
+    font-size: 40px;
+  }
+  /* 하단 영역 */
+  footer .inner{
+    display: block;
+    height: auto;+
+  }
+  footer .inner .left address{
+    transform: translateY(-45px);
+  }
+  footer .inner .left p.copyrighy{
+    transform: translateY(-45px);
+  }
+  footer .inner .right{
+    align-items: flex-start;
+  }
+  footer .inner .right .bottom{
+    margin-top: 20px;
+  }
+}
+
+
+
+
+
